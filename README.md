@@ -2,6 +2,16 @@
 
 The FusionAuth CLI is a command line tool for interacting with FusionAuth. It is written in Typescript and is available as an NPM package.
 
+## Fork notice
+
+This is a fork of the original FusionAuth CLI, which can be found at https://github.com/FusionAuth/fusionauth-node-cli.
+
+This fixes an issue where you are unable to use the CLI under node 22.
+
+You can audit the changes here:
+
+https://github.com/theogravity/fusionauth-node-cli
+
 ## Requirements
 
 * A modern version of node (tested on 19)

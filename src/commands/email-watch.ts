@@ -126,7 +126,7 @@ const prepareEmailTemplate = (fileName: string, content: string, locale?: string
     if (localeSpecificProp && locale) {
         emailTemplate[localeSpecificProp] = {[locale]: content};
     } else {
-        emailTemplate[defaultProp] = content;
+        emailTemplate[defaultProp!] = content;
     }
 
     return emailTemplate;

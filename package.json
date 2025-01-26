@@ -1,7 +1,7 @@
 {
-  "name": "@fusionauth/cli",
-  "version": "1.2.3",
-  "description": "FusionAuth CLI",
+  "name": "fusionauth-cli",
+  "version": "1.2.4",
+  "description": "FusionAuth CLI for node 22",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -45,11 +45,11 @@
     "@types/figlet": "1.5.6",
     "@types/fs-extra": "11.0.1",
     "@types/html-to-text": "9.0.1",
-    "@types/node": "20.4.5",
+    "@types/node": "22.10.10",
     "@types/uuid": "9.0.2",
     "ts-node": "10.9.1",
     "type-fest": "3.13.0",
-    "typescript": "5.1.6"
+    "typescript": "5.7.3"
   },
   "bin": {
     "fusionauth": "dist/index.js"
